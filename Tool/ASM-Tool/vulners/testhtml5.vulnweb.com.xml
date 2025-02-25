@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.90 scan initiated Mon Nov 25 11:40:33 2024 as: nmap -&#45;script vulners -Pn -sC -sV -p 80 -oX vulners/testhtml5.vulnweb.com.xml testhtml5.vulnweb.com -->
+<nmaprun scanner="nmap" args="nmap -&#45;script vulners -Pn -sC -sV -p 80 -oX vulners/testhtml5.vulnweb.com.xml testhtml5.vulnweb.com" start="1732509633" startstr="Mon Nov 25 11:40:33 2024" version="7.90" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="80"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1732509633" endtime="1732509651"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="44.228.249.3" addrtype="ipv4"/>
+<hostnames>
+<hostname name="testhtml5.vulnweb.com" type="user"/>
+<hostname name="ec2-44-228-249-3.us-west-2.compute.amazonaws.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" version="1.19.0" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.19.0</cpe></service></port>
+</ports>
+<times srtt="198849" rttvar="198849" to="994245"/>
+</host>
+<runstats><finished time="1732509651" timestr="Mon Nov 25 11:40:51 2024" summary="Nmap done at Mon Nov 25 11:40:51 2024; 1 IP address (1 host up) scanned in 18.07 seconds" elapsed="18.07" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

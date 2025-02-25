@@ -1,0 +1,131 @@
+{
+    "domain": "deface.fa24asm.tech",
+    "is_online": false,
+    "discovery_reason": "FA24 Internal Attack Surface",
+    "discovery_on": "2024-11-29T01:00:24Z",
+    "ip": [
+        "34.150.22.220"
+    ],
+    "services": null,
+    "ssl": null,
+    "technology": null,
+    "autonomous_system": null,
+    "operating_system": {
+        "vendor": null,
+        "cpe": null,
+        "port": null
+    },
+    "dns": {
+        "host": "deface.fa24asm.tech",
+        "ttl": 300,
+        "resolver": [
+            "1.0.0.1:53",
+            "8.8.8.8:53",
+            "8.8.4.4:53",
+            "9.9.9.9:53",
+            "149.112.112.112:53",
+            "208.67.222.222:53",
+            "208.67.220.220:53",
+            "1.1.1.1:53"
+        ],
+        "a": [
+            "34.150.22.220"
+        ],
+        "soa": [
+            {
+                "name": "fa24asm.tech",
+                "ns": "cory.ns.cloudflare.com",
+                "mailbox": "dns.cloudflare.com",
+                "serial": 2358272045,
+                "refresh": 10000,
+                "retry": 2400,
+                "expire": 604800,
+                "minttl": 1800
+            },
+            {
+                "name": "fa24asm.tech",
+                "ns": "cory.ns.cloudflare.com",
+                "mailbox": "dns.cloudflare.com",
+                "serial": 2358272045,
+                "refresh": 10000,
+                "retry": 2400,
+                "expire": 604800,
+                "minttl": 1800
+            },
+            {
+                "name": "fa24asm.tech",
+                "ns": "cory.ns.cloudflare.com",
+                "mailbox": "dns.cloudflare.com",
+                "serial": 2358272045,
+                "refresh": 10000,
+                "retry": 2400,
+                "expire": 604800,
+                "minttl": 1800
+            },
+            {
+                "name": "fa24asm.tech",
+                "ns": "cory.ns.cloudflare.com",
+                "mailbox": "dns.cloudflare.com",
+                "serial": 2358272045,
+                "refresh": 10000,
+                "retry": 2400,
+                "expire": 604800,
+                "minttl": 1800
+            },
+            {
+                "name": "fa24asm.tech",
+                "ns": "cory.ns.cloudflare.com",
+                "mailbox": "dns.cloudflare.com",
+                "serial": 2358272045,
+                "refresh": 10000,
+                "retry": 2400,
+                "expire": 604800,
+                "minttl": 1800
+            },
+            {
+                "name": "fa24asm.tech",
+                "ns": "cory.ns.cloudflare.com",
+                "mailbox": "dns.cloudflare.com",
+                "serial": 2358272045,
+                "refresh": 10000,
+                "retry": 2400,
+                "expire": 604800,
+                "minttl": 1800
+            },
+            {
+                "name": "fa24asm.tech",
+                "ns": "cory.ns.cloudflare.com",
+                "mailbox": "dns.cloudflare.com",
+                "serial": 2358272045,
+                "refresh": 10000,
+                "retry": 2400,
+                "expire": 604800,
+                "minttl": 1800
+            },
+            {
+                "name": "fa24asm.tech",
+                "ns": "cory.ns.cloudflare.com",
+                "mailbox": "dns.cloudflare.com",
+                "serial": 2358272045,
+                "refresh": 10000,
+                "retry": 2400,
+                "expire": 604800,
+                "minttl": 1800
+            }
+        ],
+        "all": [
+            "deface.fa24asm.tech.\t300\tIN\tA\t34.150.22.220",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "fa24asm.tech.\t1800\tIN\tSOA\tcory.ns.cloudflare.com. dns.cloudflare.com. 2358272045 10000 2400 604800 1800",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "deface.fa24asm.tech"
+        },
+        "timestamp": "2024-11-29T00:16:04.125904103+07:00",
+        "cdn": true,
+        "cdn-name": "google"
+    }
+}

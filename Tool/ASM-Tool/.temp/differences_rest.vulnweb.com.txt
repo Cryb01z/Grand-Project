@@ -1,0 +1,142 @@
+--- Old DOM
++++ New DOM
+@@ -1 +1,138 @@
+-nguyen was here 
++<!DOCTYPE html>
++<html>
++
++<head>
++    <meta charset="utf-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1">
++    <meta name="author" content="Omer Citak">
++
++    <title>Invicti Vulnerable REST API</title>
++
++    <!-- Fonts -->
++    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
++
++    <!-- Styles -->
++    <style>
++        html,
++        body {
++            background-color: #fff;
++            color: #636b6f;
++            font-family: 'Nunito', sans-serif;
++            font-weight: 200;
++            height: 100vh;
++            margin: 0;
++        }
++
++        .full-height {
++            height: 100vh;
++        }
++
++        .flex-center {
++            align-items: center;
++            display: flex;
++            justify-content: center;
++        }
++
++        .position-ref {
++            position: relative;
++        }
++
++        .top-right {
++            position: absolute;
++            right: 10px;
++            top: 18px;
++        }
++
++        .content {
++            text-align: center;
++        }
++
++        .title {
++            font-size: 84px;
++        }
++
++        .links>a {
++            color: #636b6f;
++            padding: 0 25px;
++            font-size: 13px;
++            font-weight: 600;
++            letter-spacing: .1rem;
++            text-decoration: none;
++            text-transform: uppercase;
++        }
++
++        .m-b-md {
++            margin-bottom: 30px;
++        }
++
++        table * {
++            text-align: left;
++        }
++
++        table tr td {
++            padding-right: 20px;
++        }
++
++        #resetbar {
++            width: 100%;
++            position: absolute;
++            display: block;
++            top: 0;
++            background-color: #f4e242;
++            color: #000;
++            text-align: center;
++            font-weight: bold;
++            font-size: 15px;
++            height: 30px;
++            line-height: 30px;
++            border-bottom: #000 solid 1px;
++            position: fixed;
++            z-index: 9999999;
++            cursor: pointer;
++        }
++    </style>
++</head>
++
++<body>
++    <div class="flex-center position-ref full-height">
++        <div class="content">
++            <div class="title m-b-md">
++                Invicti Vulnerable REST API
++            </div>
++
++            <div class="links m-b-md">
++                <a href="docs/">Documentation</a>
++                <a href="http://testinvicti.com/">Other Vulnerable Test Websites</a>
++            </div>
++
++            <div class="m-b-md">
++                <table class="flex-center">
++                    <tr>
++                        <td><b>Technologies:</b></td>
++                        <td>Ubuntu 18, Apache, PHP 7.1, MySQL</td>
++                    </tr>
++                    <tr>
++                        <td><b>Supported Formats:</b></td>
++                        <td>JSON, XML</td>
++                    </tr>
++                    <tr>
++                        <td><b>Supported Authentication Types:</b></td>
++                        <td>JSON Web Token, Basic Authentication, OAuth2</td>
++                    </tr>
++                    <tr>
++                        <td><b>Supported Importable File Formarts:</b></td>
++                        <td>Swagger/OpenAPI, Postman, Fiddler</td>
++                    </tr>
++                </table>
++            </div>
++
++        </div>
++    </div>
++
++    <div id="resetbar">
++        This website is automatically reset at every midnight (00:00 - UTC).
++    </div>
++
++</body>
++
++</html>

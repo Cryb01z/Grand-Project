@@ -1,0 +1,124 @@
+{
+    "domain": "testaspx.vulnweb.com",
+    "is_online": false,
+    "discovery_reason": "FA24 Internal Attack Surface",
+    "discovery_on": "2024-11-25T11:39:19Z",
+    "ip": [
+        "44.228.249.3"
+    ],
+    "services": null,
+    "ssl": null,
+    "technology": null,
+    "autonomous_system": null,
+    "operating_system": {
+        "vendor": null,
+        "cpe": null,
+        "port": null
+    },
+    "dns": {
+        "ttl": 3600,
+        "resolver": [
+            "9.9.9.9:53",
+            "1.1.1.1:53",
+            "8.8.8.8:53",
+            "208.67.222.222:53",
+            "8.8.4.4:53",
+            "208.67.220.220:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "testaspx.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2024111200 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2024111200 86400 7200 604800 86400",
+            "testaspx.vulnweb.com.\t600\tIN\tTXT",
+            "v=spf1 -all",
+            ",",
+            "n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2024111200 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "testaspx.vulnweb.com"
+        },
+        "timestamp": "2024-11-14T07:58:02Z"
+    }
+}

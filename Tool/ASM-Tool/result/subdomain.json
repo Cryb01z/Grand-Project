@@ -1,0 +1,4047 @@
+{
+    "testpphp.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "208.67.220.220:53",
+            "9.9.9.9:53",
+            "208.67.222.222:53",
+            "149.112.112.112:53",
+            "8.8.8.8:53",
+            "1.0.0.1:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "testpphp.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "testpphp.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "testpphp.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:43.628832463+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "testphp.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "9.9.9.9:53",
+            "149.112.112.112:53",
+            "208.67.222.222:53",
+            "208.67.220.220:53",
+            "1.1.1.1:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "google-site-verification:toEctYsulNIxgraKk7H3z58PCyz2IOCc36pIupEPmYQ"
+        ],
+        "all": [
+            "testphp.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t3599\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "testphp.vulnweb.com.\t3600\tIN\tTXT\t\"google-site-verification:toEctYsulNIxgraKk7H3z58PCyz2IOCc36pIupEPmYQ\"",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "testphp.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:43.721857231+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "u003etestasp.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "1.1.1.1:53",
+            "208.67.222.222:53",
+            "9.9.9.9:53",
+            "149.112.112.112:53",
+            "208.67.220.220:53",
+            "8.8.4.4:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "u003etestasp.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t3599\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "u003etestasp.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "u003etestasp.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:43.72510943+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "test.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "149.112.112.112:53",
+            "208.67.222.222:53",
+            "9.9.9.9:53",
+            "1.1.1.1:53",
+            "8.8.4.4:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "test.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "test.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "test.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:43.911427044+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "tetphp.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "9.9.9.9:53",
+            "1.0.0.1:53",
+            "208.67.220.220:53",
+            "208.67.222.222:53",
+            "1.1.1.1:53",
+            "149.112.112.112:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "tetphp.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "tetphp.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t3599\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "tetphp.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:43.818230563+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "viruswall.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "8.8.8.8:53",
+            "1.0.0.1:53",
+            "8.8.4.4:53",
+            "208.67.220.220:53",
+            "208.67.222.222:53",
+            "1.1.1.1:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "viruswall.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "viruswall.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "viruswall.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:43.519490041+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "antivirus1.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "8.8.8.8:53",
+            "1.0.0.1:53",
+            "8.8.4.4:53",
+            "1.1.1.1:53",
+            "9.9.9.9:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "antivirus1.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "antivirus1.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "antivirus1.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:43.665895398+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "httptestaspnet.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "1.0.0.1:53",
+            "8.8.4.4:53",
+            "9.9.9.9:53",
+            "208.67.220.220:53",
+            "8.8.8.8:53",
+            "149.112.112.112:53",
+            "1.1.1.1:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "httptestaspnet.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "httptestaspnet.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "httptestaspnet.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:45.438335451+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "test.php.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "208.67.222.222:53",
+            "8.8.4.4:53",
+            "8.8.8.8:53",
+            "1.1.1.1:53",
+            "208.67.220.220:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "test.php.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "test.php.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "test.php.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:43.567502202+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "www.vulnweb.com": {
+        "ttl": 1552,
+        "resolver": [
+            "8.8.4.4:53",
+            "208.67.220.220:53",
+            "9.9.9.9:53",
+            "208.67.222.222:53",
+            "1.0.0.1:53",
+            "8.8.8.8:53",
+            "149.112.112.112:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "www.vulnweb.com.\t1552\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "www.vulnweb.com.\t3600\tIN\tTXT\t\"v=spf1 -all\"",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t3597\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "www.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:45.781795414+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "edu-rost.ruwww.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "208.67.222.222:53",
+            "8.8.8.8:53",
+            "149.112.112.112:53",
+            "208.67.220.220:53",
+            "1.1.1.1:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "edu-rost.ruwww.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t3599\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "edu-rost.ruwww.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "edu-rost.ruwww.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:43.773459488+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "www.test.php.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "208.67.222.222:53",
+            "149.112.112.112:53",
+            "8.8.4.4:53",
+            "1.0.0.1:53",
+            "9.9.9.9:53",
+            "1.1.1.1:53",
+            "208.67.220.220:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "www.test.php.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t3599\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "www.test.php.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "www.test.php.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:44.109034255+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "testaspnet.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "8.8.4.4:53",
+            "1.1.1.1:53",
+            "208.67.222.222:53",
+            "1.0.0.1:53",
+            "149.112.112.112:53"
+        ],
+        "a": [
+            "44.238.29.244"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all",
+            "google-site-verification:0I73u7E64LVLWuS-nT9ssWHaHOI36n65prWVTGJklFo"
+        ],
+        "all": [
+            "testaspnet.vulnweb.com.\t3600\tIN\tA\t44.238.29.244",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "testaspnet.vulnweb.com.\t3600\tIN\tTXT\t\"v=spf1 -all\"",
+            "testaspnet.vulnweb.com.\t3600\tIN\tTXT\t\"google-site-verification:0I73u7E64LVLWuS-nT9ssWHaHOI36n65prWVTGJklFo\"",
+            "vulnweb.com.\t3599\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "testaspnet.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:43.404158695+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.235.217.0/24",
+                "44.235.218.0/23",
+                "44.235.220.0/22",
+                "44.235.224.0/19",
+                "44.236.0.0/14",
+                "44.240.0.0/12"
+            ]
+        }
+    },
+    "odincovo.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "149.112.112.112:53",
+            "208.67.220.220:53",
+            "208.67.222.222:53",
+            "1.1.1.1:53",
+            "8.8.4.4:53",
+            "8.8.8.8:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "odincovo.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "odincovo.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "odincovo.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:43.508571506+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "estphp.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "1.0.0.1:53",
+            "208.67.220.220:53",
+            "9.9.9.9:53",
+            "8.8.4.4:53",
+            "8.8.8.8:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "estphp.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "estphp.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "estphp.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:45.628226165+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "testhtml5.vulnweb.com": {
+        "ttl": 1850,
+        "resolver": [
+            "8.8.8.8:53",
+            "208.67.222.222:53",
+            "149.112.112.112:53",
+            "9.9.9.9:53",
+            "1.0.0.1:53",
+            "8.8.4.4:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "testhtml5.vulnweb.com.\t1850\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "testhtml5.vulnweb.com.\t3600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "testhtml5.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:45.522749355+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "testap.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "1.1.1.1:53",
+            "1.0.0.1:53",
+            "8.8.8.8:53",
+            "8.8.4.4:53",
+            "149.112.112.112:53",
+            "208.67.222.222:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "testap.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "testap.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "testap.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:45.644780758+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "ttestphp.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "1.0.0.1:53",
+            "8.8.8.8:53",
+            "8.8.4.4:53",
+            "208.67.220.220:53",
+            "149.112.112.112:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "ttestphp.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "ttestphp.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t3597\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "ttestphp.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:45.673760155+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "2f-2fwww.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "1.0.0.1:53",
+            "8.8.8.8:53",
+            "149.112.112.112:53",
+            "9.9.9.9:53",
+            "1.1.1.1:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "2f-2fwww.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t3599\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "2f-2fwww.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "2f-2fwww.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:45.643869722+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "2ftestasp.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "9.9.9.9:53",
+            "208.67.220.220:53",
+            "1.1.1.1:53",
+            "149.112.112.112:53",
+            "1.0.0.1:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "2ftestasp.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "2ftestasp.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\""
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "2ftestasp.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:45.798988854+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "testaspx.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "208.67.220.220:53",
+            "149.112.112.112:53",
+            "8.8.8.8:53",
+            "1.0.0.1:53",
+            "8.8.4.4:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "testaspx.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "testaspx.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "testaspx.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:43.736489779+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "www.virus.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "208.67.222.222:53",
+            "1.1.1.1:53",
+            "208.67.220.220:53",
+            "8.8.4.4:53",
+            "149.112.112.112:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "www.virus.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "www.virus.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "www.virus.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:45.661869965+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "7ctestasp.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "1.1.1.1:53",
+            "1.0.0.1:53",
+            "149.112.112.112:53",
+            "208.67.222.222:53",
+            "208.67.220.220:53",
+            "9.9.9.9:53",
+            "8.8.4.4:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "7ctestasp.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "7ctestasp.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t3598\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "7ctestasp.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:45.631175716+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "edu-rost.rutestasp.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "149.112.112.112:53",
+            "1.1.1.1:53",
+            "8.8.4.4:53",
+            "9.9.9.9:53",
+            "8.8.8.8:53",
+            "208.67.222.222:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "edu-rost.rutestasp.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "edu-rost.rutestasp.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t3597\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "edu-rost.rutestasp.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:45.998348207+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "5burl-3dhttp-3a-2f-2fwww.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "9.9.9.9:53",
+            "1.1.1.1:53",
+            "208.67.220.220:53",
+            "8.8.4.4:53",
+            "1.0.0.1:53",
+            "8.8.8.8:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "5burl-3dhttp-3a-2f-2fwww.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "5burl-3dhttp-3a-2f-2fwww.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "5burl-3dhttp-3a-2f-2fwww.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:45.995982782+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "testasp.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "1.0.0.1:53",
+            "208.67.220.220:53",
+            "208.67.222.222:53",
+            "149.112.112.112:53"
+        ],
+        "a": [
+            "44.238.29.244"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all",
+            "google-site-verification:9QFopDZwL4Fw1z9RU7_L1QQqIpeZNgyuufqN44mRG8w"
+        ],
+        "all": [
+            "testasp.vulnweb.com.\t3600\tIN\tA\t44.238.29.244",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t3599\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "testasp.vulnweb.com.\t3600\tIN\tTXT\t\"v=spf1 -all\"",
+            "testasp.vulnweb.com.\t3600\tIN\tTXT\t\"google-site-verification:9QFopDZwL4Fw1z9RU7_L1QQqIpeZNgyuufqN44mRG8w\"",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "testasp.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:47.792463146+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.235.217.0/24",
+                "44.235.218.0/23",
+                "44.235.220.0/22",
+                "44.235.224.0/19",
+                "44.236.0.0/14",
+                "44.240.0.0/12"
+            ]
+        }
+    },
+    "testapsnet.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "8.8.4.4:53",
+            "9.9.9.9:53",
+            "1.1.1.1:53",
+            "1.0.0.1:53",
+            "149.112.112.112:53",
+            "208.67.222.222:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "testapsnet.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "testapsnet.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t3598\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "testapsnet.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:46.044355571+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "u003erest.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "208.67.220.220:53",
+            "1.0.0.1:53",
+            "8.8.8.8:53",
+            "1.1.1.1:53",
+            "9.9.9.9:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "u003erest.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "u003erest.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "u003erest.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:45.939929273+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "restasp.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "8.8.4.4:53",
+            "149.112.112.112:53",
+            "9.9.9.9:53",
+            "1.0.0.1:53",
+            "208.67.220.220:53",
+            "208.67.222.222:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "restasp.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "restasp.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3597\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "restasp.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:46.086163028+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "2fwww.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "208.67.220.220:53",
+            "8.8.8.8:53",
+            "1.1.1.1:53",
+            "208.67.222.222:53",
+            "8.8.4.4:53",
+            "9.9.9.9:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "2fwww.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "2fwww.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "vulnweb.com.\t3597\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "2fwww.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:46.088210084+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "testaps.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "8.8.8.8:53",
+            "208.67.222.222:53",
+            "8.8.4.4:53",
+            "9.9.9.9:53",
+            "208.67.220.220:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "testaps.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "testaps.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t3598\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "testaps.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:45.997178232+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "rest.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "8.8.8.8:53",
+            "8.8.4.4:53",
+            "1.1.1.1:53",
+            "1.0.0.1:53",
+            "149.112.112.112:53",
+            "208.67.222.222:53"
+        ],
+        "a": [
+            "35.81.188.86"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "all": [
+            "rest.vulnweb.com.\t3600\tIN\tA\t35.81.188.86",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t3597\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "rest.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:45.658976142+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "35.71.128.0/17",
+                "35.72.0.0/13",
+                "35.80.0.0/12",
+                "35.96.0.0/22",
+                "35.96.4.0/24"
+            ]
+        }
+    },
+    "virus.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "1.1.1.1:53",
+            "8.8.8.8:53",
+            "208.67.222.222:53",
+            "1.0.0.1:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "virus.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "virus.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "virus.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:45.805061571+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    },
+    "blogger.com.vulnweb.com": {
+        "ttl": 3600,
+        "resolver": [
+            "9.9.9.9:53",
+            "149.112.112.112:53",
+            "8.8.4.4:53",
+            "208.67.220.220:53",
+            "1.0.0.1:53",
+            "1.1.1.1:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2021110100,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "blogger.com.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t3599\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "blogger.com.vulnweb.com.\t600\tIN\tTXT\t\"v=spf1 -all\"",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400",
+            "vulnweb.com.\t3597\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2021110100 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "blogger.com.vulnweb.com"
+        },
+        "timestamp": "2024-11-07T00:50:46.257733858+07:00",
+        "asn": {
+            "as-number": "AS16509",
+            "as-name": "amazon-02",
+            "as-country": "US",
+            "as-range": [
+                "44.224.0.0/13",
+                "44.232.0.0/15",
+                "44.234.0.0/16",
+                "44.235.0.0/17",
+                "44.235.128.0/18",
+                "44.235.192.0/20",
+                "44.235.208.0/21",
+                "44.235.216.0/24"
+            ]
+        }
+    }
+}

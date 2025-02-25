@@ -1,0 +1,205 @@
+--- Old DOM
++++ New DOM
+@@ -1,37 +1,175 @@
+-<!DOCTYPE HTML>
++
++<!-- Tutorial URL: http://sixrevisions.com/css/responsive-background-image/ -->
++
++<!DOCTYPE html>
++<html lang="en">
++<head>
++<meta charset="utf-8">
++<title>Responsive Full Background Image</title>
++  <meta name="viewport" content="width=device-width, initial-scale=1" />
++  <meta name="author" content="Six Revisions">
++  <meta name="description" content="How to use the CSS background-size property to make an image fully span the entire viewport.">
++  <link rel="icon" href="http://sixrevisions.com/favicon.ico" type="image/x-icon" />
++  <link href="http://fonts.googleapis.com/css?family=Kotta+One|Cantarell:400,700" rel="stylesheet" type="text/css">
++  <!--[if lt IE 9]>
++  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
++  <![endif]-->
++ 
++  <!-- Not required: presentational-only.css only contains CSS for prettifying the demo -->
++  <link rel="stylesheet" href="presentational-only/presentational-only.css">
++
++  <!-- responsive-full-background-image.css stylesheet contains the code you want -->
++  <link rel="stylesheet" href="responsive-full-background-image.css">
++  
++  <!-- Not required: jquery.min.js and presentational-only.js is only used to demonstrate scrolling behavior of the viewport  -->
++  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
++  <script src="presentational-only/presentational-only.js"></script>
++</head>
++<body>
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8" />
++ 
++  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
++  <link rel="stylesheet" href="navi.css" />
++  <link rel="preconnect" href="https://fonts.gstatic.com">
++  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
++  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
++  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
++</head>
++<body>
++  <header class="top">
++    <h1>CAJAB POLYTECH</h1>
++  </header>
++  <nav class="navbar1" id="navbar">
++    <ul class="menu-list">
++      <li class="logo"><a href="#"><img src="logo.jpeg" alt="logo"></a></li>
++    
++
++      <div class="dropdown">
++          <button class="dropbtn"><li><i class="fa fa-fw fa-home"></i><a href="index.php">Home</a></li> </button>
++
++      </div>
++      
++
++
++      <div class="dropdown">
++        <button class="dropbtn"><li><i class=" fa fa-question-circle-o"></i><a href="#">About</a><i class="fa fa-caret-down"></i></li>
++
++        </button>
++        <div class="dropdown-content">
++          <a href="#">Link 1</a>
++          <a href="#">Link 2</a>
++          <a href="#">Link 3</a>
++        </div>
++      </div>
+ 
+ 
+ 
+-<HTML LANG="EN">
++
++
++      <div class="dropdown">
++        <button class="dropbtn"> <li><i class=" fa fa-institution"></i><a href="#">Departments</a><i class="fa fa-caret-down"></i></li>
++
++        </button>
++        <div class="dropdown-content">
++         <a href="ENGINEERING.php"><i class="fas fa-screwdriver"></i>Engineering</a>
++          <a href="ComputerSci.php" ><i class="fas fa-laptop-code"></i> Computer Science</a>
++          <a href="#"> <i class="fas fa-wind"></i> Refrigeration & Air Conditioning</a>
++        </div>
++      </div>
++     
++
++      <div class="dropdown">
++        <button class="dropbtn"><li><i class=" fa fa-fw fa-envelope"></i><a href="CONTACT.php">Contact Us</a></li> </button>
++
++    </div>
++    
++
++    <div class="dropdown">
++        <button class="dropbtn">  <li><i class="fa fa-fw fa-user ">  </i><a href="log.php">Sign up / Login</a><i class="fa fa-caret-down"></i></li>
++        </button>
++        <div class="dropdown-content">
++          <a href="log.php"><i class="fas fa-chalkboard-teacher"></i> For Lecturers</a>
++        
++          <a href="log.php"><i class="fas fa-child"></i>For Students</a>
++        </div>
++      </div>
+ 
+ 
+ 
+-<HEAD>
++    </ul>
++  </nav>
++  <script>
++    const nav = document.querySelector("#navbar");
++    const NavTop = nav.offsetTop;
+ 
+-    <TITLE>HACKED BY FIA</TITLE>
++    function fixnavbar(){
++      if(window.scrollY >= NavTop){
++        document.body.style.paddingTop = nav.offsetHeight + "px";
++        document.body.classList.add("fixed-nav");
++      }else {
++        document.body.style.paddingTop = 0;
++        document.body.classList.remove("fixed-nav");
++      }
++    }
++    window.addEventListener("scroll", fixnavbar);
++  </script>
++</body>
++</html>
++    <!--
++  <nav class="navbar" id="top">
++    
++    <div class="inner">
++      <a href="http://sixrevisions.com/css/responsive-background-image/">Read Tutorial</a>
+ 
+-    <LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="ASSETS/STYLE.CSS">
+-
+-</HEAD>
++  </div>
++ 
++  </nav>
++   -->
++  <header class="container">
++    <section class="content">
++      <h1 style="color:white; font-weight: 900;";>WELCOME TO CAJAB POLYTECH</h1>
++      <p class="sub-title"><strong>Where your dreams</strong> <br />are transformed into reality</p>
++      <p><a class="button" id="load-more-content" href="#top">what to know about CAJAB POLYTECH?</a></p>
++      <p>To see scrolling behavior</p>
++      
++      <!-- Some content to demonstrate viewport scrolling behavior -->
++      <div id="more-content">
++        <p><br />Background image courtesy of <br /> <a href="http://unsplash.com/" target="_blank">Unsplash</a>.</p>
++        <blockquote>
++        Creating a goal-driven statement of what a product or application does results in better product experiences.
++        It meets expectations because it is focused on solving the problem it was created to address.
++        There is power in doing one thing and it doing it very well.
++        <cite>
++          Francisco Inchauste
++          From <a href="http://sixrevisions.com/usabilityaccessibility/creating-a-timeless-user-experience/" target="_blank">Creating a Timeless User Experience</a>
++        </cite>
++        </blockquote>
++        <blockquote>
++        Fitts' law is centered around a mathematical equation that is used to illustrate the time it takes to reach a target object.
++        A target object, in the context of UIs, can be any interactive element, such as a submit button, a hyperlink, and an input field in a web form.
++        The idea is this: The quicker you can reach a target object, the more convenient and easy it is to use.
++          <cite>
++          Jason Gross
++          From <a href="http://sixrevisions.com/usabilityaccessibility/improving-usability-with-fitts-law/" target="_blank">Improving Usability with Fitts' Law</a>
++          </cite>
++        </blockquote>
++        <blockquote>
++        Visual weight revolves around the idea that distinct elements in a design have varying heaviness relative to each other. 
++        Sometimes visual weight is obvious, such as in the case where larger objects appear heavier than smaller objects because they take up more space. 
++        In certain instances, it’s not so cut and dry, such as in the case of color. Some colors may look as if they are heavier and more dominant than others.
++          <cite>
++          Kayla Knight
++          From <a href="http://sixrevisions.com/graphics-design/visual-weight-designs/" target="_blank">Working with Visual Weight in Your Designs</a>
++          </cite>
++        </blockquote>
++      </div>
++    </section>
++  </header>
+ 
+ 
+-
+-<BODY>
+-
+-    <IMG ID="LOGO" SRC="ASSETS/LOGO_FIA.PNG" ALT="FIA ICON">
+-
+-    <H1>HACKED BY FIA</H1>
+-
+-    <P CLASS="P-TEXT">⚔️⚔️⚔️⚔️⚔️ WE ARE INVINCIBLE. TRY TO HACK US ⚔️⚔️⚔️⚔️⚔️</P>
+-
+-    <SCRIPT SRC="ASSETS/JAVASCRIPT.JS"></SCRIPT>
+-
+-    <!-- 🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖🤖 -->
+-
+-
+-
+-</BODY>
+-
+-
+-
+-</HTML>
++</body>
++</html>

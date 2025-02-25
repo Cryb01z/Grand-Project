@@ -1,0 +1,11 @@
+subjs
+go install github.com/tomnomnom/gf@latest
+go install github.com/dwisiswant0/crlfuzz/cmd/crlfuzz@latest
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+go install github.com/projectdiscovery/katana/cmd/katana@latest
+go install -v github.com/six2dez/ipcdn@latest
+go install -v github.com/s0md3v/smap/cmd/smap@latest
+go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
+go install github.com/projectdiscovery/asnmap/cmd/asnmap@latest
+go install github.com/projectdiscovery/tlsx/cmd/tlsx@latest
+go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest

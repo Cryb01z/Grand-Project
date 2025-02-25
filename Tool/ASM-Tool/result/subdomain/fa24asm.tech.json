@@ -1,0 +1,367 @@
+{
+    "fa24asm.tech":{
+        "host": "fa24asm.tech",
+        "ttl": 300,
+        "resolver": [
+          "1.0.0.1:53",
+          "8.8.8.8:53",
+          "8.8.4.4:53",
+          "9.9.9.9:53",
+          "149.112.112.112:53",
+          "208.67.222.222:53",
+          "208.67.220.220:53",
+          "1.1.1.1:53"
+        ],
+        "a": [
+          "34.96.211.121"
+        ],
+        "soa": [
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          }
+        ],
+        "ns": [
+          "cory.ns.cloudflare.com",
+          "natasha.ns.cloudflare.com"
+        ],
+        "all": [
+          "fa24asm.tech.\t300\tIN\tA\t34.96.211.121",
+          "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+          "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+          "fa24asm.tech.\t1800\tIN\tSOA\tcory.ns.cloudflare.com. dns.cloudflare.com. 2358272045 10000 2400 604800 1800",
+          "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+          "fa24asm.tech.\t86400\tIN\tNS\tcory.ns.cloudflare.com.",
+          "fa24asm.tech.\t86400\tIN\tNS\tnatasha.ns.cloudflare.com."
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+          "host": "fa24asm.tech"
+        },
+        "timestamp": "2024-11-29T00:14:05.011796727+07:00",
+        "cdn": true,
+        "cdn-name": "google",
+        "asn": {
+          "as-number": "AS396982",
+          "as-name": "google-cloud-platform",
+          "as-country": "US",
+          "as-range": [
+            "34.95.64.0/18",
+            "34.95.128.0/17",
+            "34.96.0.0/15",
+            "34.98.0.0/17",
+            "34.98.128.0/21"
+          ]
+        }
+      },
+    "bank.fa24asm.tech":{
+        "host": "bank.fa24asm.tech",
+        "ttl": 300,
+        "resolver": [
+          "1.0.0.1:53",
+          "8.8.8.8:53",
+          "8.8.4.4:53",
+          "9.9.9.9:53",
+          "149.112.112.112:53",
+          "208.67.222.222:53",
+          "208.67.220.220:53",
+          "1.1.1.1:53"
+        ],
+        "a": [
+          "20.188.113.81"
+        ],
+        "soa": [
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          }
+        ],
+        "all": [
+          "bank.fa24asm.tech.\t300\tIN\tA\t20.188.113.81",
+          "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+          "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+          "fa24asm.tech.\t1800\tIN\tSOA\tcory.ns.cloudflare.com. dns.cloudflare.com. 2358272045 10000 2400 604800 1800",
+          "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+          "host": "bank.fa24asm.tech"
+        },
+        "timestamp": "2024-11-29T00:15:29.428480685+07:00",
+        "asn": {
+          "as-number": "AS8075",
+          "as-name": "microsoft-corp-msn-as-block",
+          "as-country": "US",
+          "as-range": [
+            "20.184.0.0/13",
+            "20.192.0.0/14",
+            "20.196.0.0/18"
+          ]
+        }
+      },
+    "deface.fa24asm.tech":{
+        "host": "deface.fa24asm.tech",
+        "ttl": 300,
+        "resolver": [
+          "1.0.0.1:53",
+          "8.8.8.8:53",
+          "8.8.4.4:53",
+          "9.9.9.9:53",
+          "149.112.112.112:53",
+          "208.67.222.222:53",
+          "208.67.220.220:53",
+          "1.1.1.1:53"
+        ],
+        "a": [
+          "34.150.22.220"
+        ],
+        "soa": [
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          },
+          {
+            "name": "fa24asm.tech",
+            "ns": "cory.ns.cloudflare.com",
+            "mailbox": "dns.cloudflare.com",
+            "serial": 2358272045,
+            "refresh": 10000,
+            "retry": 2400,
+            "expire": 604800,
+            "minttl": 1800
+          }
+        ],
+        "all": [
+          "deface.fa24asm.tech.\t300\tIN\tA\t34.150.22.220",
+          "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+          "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+          "fa24asm.tech.\t1800\tIN\tSOA\tcory.ns.cloudflare.com. dns.cloudflare.com. 2358272045 10000 2400 604800 1800",
+          "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+          "host": "deface.fa24asm.tech"
+        },
+        "timestamp": "2024-11-29T00:16:04.125904103+07:00",
+        "cdn": true,
+        "cdn-name": "google",
+        "asn": {
+          "as-number": "AS396982",
+          "as-name": "google-cloud-platform",
+          "as-country": "US",
+          "as-range": [
+            "34.149.0.0/16",
+            "34.150.0.0/15",
+            "34.152.0.0/18"
+          ]
+        }
+      }
+}

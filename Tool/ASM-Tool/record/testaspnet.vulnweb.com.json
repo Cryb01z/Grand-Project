@@ -1,0 +1,219 @@
+{
+    "domain": "testaspnet.vulnweb.com",
+    "discovery_reason": "FA24 Internal Attack Surface",
+    "is_online": true,
+    "discovery_on": "2024-11-25T11:39:14Z",
+    "ip": [
+        "44.238.29.244"
+    ],
+    "services": [
+        {
+            "http": {
+                "request": {
+                    "method": "GET",
+                    "uri": "testaspnet.vulnweb.com:80"
+                },
+                "response": {
+                    "status_code": 200,
+                    "status_reason": "OK",
+                    "header_location": null,
+                    "html_title": ""
+                }
+            },
+            "port": "80",
+            "service_name": "http",
+            "cpe": [
+                "cpe:/a:microsoft:internet_information_services:8.5",
+                "cpe:/o:microsoft:windows"
+            ],
+            "software": [
+                {
+                    "vendor": "Microsoft IIS httpd",
+                    "product": "Microsoft IIS httpd",
+                    "version": "8.5"
+                }
+            ],
+            "vulnerabilities": []
+        }
+    ],
+    "ssl": {},
+    "technology": [
+        {
+            "categories": "Server-side Programming Languages",
+            "subtech": [
+                {
+                    "technology": "Microsoft ASP.NET",
+                    "version": "2.0.50727",
+                    "description": "Microsoft's Active Server Pages technology on the .NET framework."
+                }
+            ]
+        },
+        {
+            "categories": "Web Servers",
+            "subtech": [
+                {
+                    "technology": "IIS",
+                    "version": "8.5",
+                    "description": "The Internet Information Services (IIS) are a set of Internet-based services for Windows, developed by Microsoft."
+                }
+            ]
+        },
+        {
+            "categories": "Operating System",
+            "subtech": [
+                {
+                    "technology": "Windows Server",
+                    "version": null,
+                    "description": "null"
+                }
+            ]
+        }
+    ],
+    "autonomous_system": {
+        "asn": "AS16509",
+        "description": "None",
+        "bgp_prefix": [
+            "44.235.217.0/24",
+            "44.235.218.0/23",
+            "44.235.220.0/22",
+            "44.235.224.0/19",
+            "44.236.0.0/14",
+            "44.240.0.0/12"
+        ],
+        "name": "amazon-02",
+        "country_code": "US"
+    },
+    "operating_system": {
+        "vendor": "Windows",
+        "cpe": [
+            "cpe:/o:microsoft:windows"
+        ],
+        "port": 80
+    },
+    "dns": {
+        "ttl": 3600,
+        "resolver": [
+            "208.67.220.220:53",
+            "208.67.222.222:53",
+            "8.8.4.4:53",
+            "1.0.0.1:53",
+            "9.9.9.9:53"
+        ],
+        "a": [
+            "44.238.29.244"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all",
+            "google-site-verification:0I73u7E64LVLWuS-nT9ssWHaHOI36n65prWVTGJklFo"
+        ],
+        "all": [
+            "testaspnet.vulnweb.com.\t3600\tIN\tA\t44.238.29.244",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2024111200 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2024111200 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2024111200 86400 7200 604800 86400",
+            "testaspnet.vulnweb.com.\t3600\tIN\tTXT",
+            "v=spf1 -all",
+            ",",
+            "testaspnet.vulnweb.com.\t3600\tIN\tTXT",
+            "google-site-verification:0I73u7E64LVLWuS-nT9ssWHaHOI36n65prWVTGJklFo",
+            "],",
+            "status_code",
+            "NOERROR",
+            "axfr",
+            {
+                "host": "testaspnet.vulnweb.com"
+            },
+            "timestamp",
+            "2024-11-14T07:58:02Z",
+            "asn",
+            {
+                "as-number": "AS16509",
+                "as-name": "amazon-02",
+                "as-country": "US",
+                "as-range": [
+                    "44.235.217.0/24",
+                    "44.235.218.0/23",
+                    "44.235.220.0/22",
+                    "44.235.224.0/19",
+                    "44.236.0.0/14",
+                    "44.240.0.0/12"
+                ]
+            }
+        ]
+    }
+}

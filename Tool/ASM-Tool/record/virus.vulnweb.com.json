@@ -1,0 +1,142 @@
+{
+    "domain": "www.virus.vulnweb.com",
+    "is_online": false,
+    "discovery_reason": "FA24 Internal Attack Surface",
+    "discovery_on": "2024-11-25T11:40:20Z",
+    "ip": [
+        "44.228.249.3"
+    ],
+    "services": null,
+    "ssl": null,
+    "technology": null,
+    "autonomous_system": null,
+    "operating_system": {
+        "vendor": null,
+        "cpe": null,
+        "port": null
+    },
+    "dns": {
+        "ttl": 3600,
+        "resolver": [
+            "208.67.220.220:53",
+            "208.67.222.222:53",
+            "9.9.9.9:53",
+            "8.8.8.8:53",
+            "8.8.4.4:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "v=spf1 -all"
+        ],
+        "all": [
+            "www.virus.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2024111200 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t3598\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2024111200 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2024111200 86400 7200 604800 86400",
+            "www.virus.vulnweb.com.\t600\tIN\tTXT",
+            "v=spf1 -all",
+            "],",
+            "status_code",
+            "NOERROR",
+            "axfr",
+            {
+                "host": "www.virus.vulnweb.com"
+            },
+            "timestamp",
+            "2024-11-14T07:58:04Z",
+            "asn",
+            {
+                "as-number": "AS16509",
+                "as-name": "amazon-02",
+                "as-country": "US",
+                "as-range": [
+                    "44.224.0.0/13",
+                    "44.232.0.0/15",
+                    "44.234.0.0/16",
+                    "44.235.0.0/17",
+                    "44.235.128.0/18",
+                    "44.235.192.0/20",
+                    "44.235.208.0/21",
+                    "44.235.216.0/24"
+                ]
+            }
+        ]
+    }
+}

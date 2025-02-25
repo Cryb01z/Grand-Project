@@ -1,0 +1,1 @@
+http://10.3.80.183/faq.php?search=1 (GET)  # /snap/sqlmap/36/bin/sqlmap --batch --output-dir .temp/sqli/ -m .temp/sqlmap_10.3.80.183.txt --flush-session

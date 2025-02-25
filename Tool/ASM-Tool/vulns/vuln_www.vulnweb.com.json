@@ -1,0 +1,165 @@
+{
+    "vulnerabilities": [
+        {
+            "affects_detail": "",
+            "affects_url": "http://www.vulnweb.com/",
+            "api_operation_id": null,
+            "api_type": null,
+            "app": "wvs",
+            "confidence": 100,
+            "criticality": 10,
+            "last_seen": null,
+            "loc_id": 2,
+            "severity": 2,
+            "status": "open",
+            "tags": [
+                "verified",
+                "CWE-538",
+                "confidence.100",
+                "configuration",
+                "information_disclosure",
+                "directory_listing"
+            ],
+            "target_id": "32a8bf94-ef4b-457c-b0e7-bc321d5a1840",
+            "target_vuln_id": "3501004848747251248",
+            "vt_created": null,
+            "vt_id": "b53afc6c-83c3-7ea8-ce7b-d5f5fb01b7d7",
+            "vt_name": "Directory listings",
+            "vt_updated": null,
+            "vuln_id": "3501004848713696815"
+        },
+        {
+            "affects_detail": "",
+            "affects_url": "http://www.vulnweb.com/",
+            "api_operation_id": null,
+            "api_type": null,
+            "app": "wvs",
+            "confidence": 95,
+            "criticality": 10,
+            "last_seen": null,
+            "loc_id": 2,
+            "severity": 2,
+            "status": "open",
+            "tags": [
+                "sensitive_data_not_over_ssl",
+                "CWE-16"
+            ],
+            "target_id": "32a8bf94-ef4b-457c-b0e7-bc321d5a1840",
+            "target_vuln_id": "3501004509662938657",
+            "vt_created": null,
+            "vt_id": "3f6a8a0e-07f2-af81-54ff-61020299caeb",
+            "vt_name": "Insecure HTTP Usage",
+            "vt_updated": null,
+            "vuln_id": "3501004509637772832"
+        },
+        {
+            "affects_detail": "",
+            "affects_url": "http://www.vulnweb.com/",
+            "api_operation_id": null,
+            "api_type": null,
+            "app": "wvs",
+            "confidence": 95,
+            "criticality": 10,
+            "last_seen": null,
+            "loc_id": 2,
+            "severity": 2,
+            "status": "open",
+            "tags": [
+                "CWE-16",
+                "configuration"
+            ],
+            "target_id": "32a8bf94-ef4b-457c-b0e7-bc321d5a1840",
+            "target_vuln_id": "3501004689321756196",
+            "vt_created": null,
+            "vt_id": "dd4adcd9-50ac-8d67-55b9-4163d742bbf1",
+            "vt_name": "Same site scripting",
+            "vt_updated": null,
+            "vuln_id": "3501004689288201763"
+        },
+        {
+            "affects_detail": "",
+            "affects_url": "http://www.vulnweb.com/",
+            "api_operation_id": null,
+            "api_type": null,
+            "app": "wvs",
+            "confidence": 100,
+            "criticality": 10,
+            "last_seen": null,
+            "loc_id": 2,
+            "severity": 2,
+            "status": "open",
+            "tags": [
+                "verified",
+                "sensitive_data_not_over_ssl",
+                "CWE-319",
+                "confidence.100",
+                "weak_crypto"
+            ],
+            "target_id": "32a8bf94-ef4b-457c-b0e7-bc321d5a1840",
+            "target_vuln_id": "3501004741398234669",
+            "vt_created": null,
+            "vt_id": "bca221d1-8581-3375-4097-66b0048ed088",
+            "vt_name": "SSL/TLS Not Implemented",
+            "vt_updated": null,
+            "vuln_id": "3501004741389846060"
+        },
+        {
+            "affects_detail": "",
+            "affects_url": "http://www.vulnweb.com/",
+            "api_operation_id": null,
+            "api_type": null,
+            "app": "wvs",
+            "confidence": 95,
+            "criticality": 10,
+            "last_seen": null,
+            "loc_id": 2,
+            "severity": 0,
+            "status": "open",
+            "tags": [
+                "CWE-1021",
+                "configuration"
+            ],
+            "target_id": "32a8bf94-ef4b-457c-b0e7-bc321d5a1840",
+            "target_vuln_id": "3501004736658671143",
+            "vt_created": null,
+            "vt_id": "011055fc-94f1-ab96-56ac-53117c56fb4d",
+            "vt_name": "Content Security Policy (CSP) Not Implemented",
+            "vt_updated": null,
+            "vuln_id": "3501004736599950886"
+        },
+        {
+            "affects_detail": "",
+            "affects_url": "http://www.vulnweb.com/",
+            "api_operation_id": null,
+            "api_type": null,
+            "app": "wvs",
+            "confidence": 95,
+            "criticality": 10,
+            "last_seen": null,
+            "loc_id": 2,
+            "severity": 0,
+            "status": "open",
+            "tags": [
+                "CWE-1021",
+                "configuration"
+            ],
+            "target_id": "32a8bf94-ef4b-457c-b0e7-bc321d5a1840",
+            "target_vuln_id": "3501004738529330730",
+            "vt_created": null,
+            "vt_id": "bd2ff718-596b-a1cd-3b08-6e61d4b3d8da",
+            "vt_name": "Permissions-Policy header not implemented",
+            "vt_updated": null,
+            "vuln_id": "3501004738487387689"
+        }
+    ],
+    "pagination": {
+        "count": 6,
+        "cursor_hash": "8f629dd49f910b9202eb0da5d51fdb6e",
+        "cursors": [
+            null
+        ],
+        "sort": null
+    },
+    "scan_id": "1d8e276b-a400-44a5-b9a7-72b57f5f786f",
+    "result_id": "b1ee07b6-e394-4e24-bf77-d2129a77599d"
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.90 scan initiated Mon Nov 25 11:39:01 2024 as: nmap -&#45;script vulners -Pn -sC -sV -p 80 -oX vulners/testasp.vulnweb.com.xml testasp.vulnweb.com -->
+<nmaprun scanner="nmap" args="nmap -&#45;script vulners -Pn -sC -sV -p 80 -oX vulners/testasp.vulnweb.com.xml testasp.vulnweb.com" start="1732509541" startstr="Mon Nov 25 11:39:01 2024" version="7.90" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="80"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1732509541" endtime="1732509554"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="44.238.29.244" addrtype="ipv4"/>
+<hostnames>
+<hostname name="testasp.vulnweb.com" type="user"/>
+<hostname name="ec2-44-238-29-244.us-west-2.compute.amazonaws.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="8.5" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:internet_information_server:8.5</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-server-header" output="Microsoft-IIS/8.5"><elem>Microsoft-IIS/8.5</elem>
+</script></port>
+</ports>
+<times srtt="198233" rttvar="198233" to="991165"/>
+</host>
+<runstats><finished time="1732509554" timestr="Mon Nov 25 11:39:14 2024" summary="Nmap done at Mon Nov 25 11:39:14 2024; 1 IP address (1 host up) scanned in 13.47 seconds" elapsed="13.47" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

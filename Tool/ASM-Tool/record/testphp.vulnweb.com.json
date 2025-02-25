@@ -1,0 +1,216 @@
+{
+    "domain": "testphp.vulnweb.com",
+    "discovery_reason": "FA24 Internal Attack Surface",
+    "is_online": true,
+    "discovery_on": "2024-11-25T11:39:47Z",
+    "ip": [
+        "44.228.249.3"
+    ],
+    "services": [
+        {
+            "http": {
+                "request": {
+                    "method": "GET",
+                    "uri": "testphp.vulnweb.com:80"
+                },
+                "response": {
+                    "status_code": 200,
+                    "status_reason": "OK",
+                    "header_location": null,
+                    "html_title": ""
+                }
+            },
+            "port": "80",
+            "service_name": "http",
+            "cpe": null,
+            "software": [
+                {
+                    "vendor": "nginx",
+                    "product": "nginx",
+                    "version": "1.19.0"
+                }
+            ],
+            "vulnerabilities": []
+        }
+    ],
+    "ssl": {},
+    "technology": [
+        {
+            "categories": "Web Servers",
+            "subtech": [
+                {
+                    "technology": "Nginx",
+                    "version": "1.19.0",
+                    "description": "Nginx (pronounced as \"engine X\") is a lightweight open source web server developed by Igor Sysoev."
+                }
+            ]
+        },
+        {
+            "categories": "Reverse proxies",
+            "subtech": [
+                {
+                    "technology": "Nginx",
+                    "version": "1.19.0",
+                    "description": "null"
+                }
+            ]
+        },
+        {
+            "categories": "Editors",
+            "subtech": [
+                {
+                    "technology": "DreamWeaver",
+                    "version": null,
+                    "description": "null"
+                }
+            ]
+        },
+        {
+            "categories": "Programming languages",
+            "subtech": [
+                {
+                    "technology": "PHP",
+                    "version": "5.6.40",
+                    "description": "null"
+                }
+            ]
+        },
+        {
+            "categories": "Operating System",
+            "subtech": [
+                {
+                    "technology": "Ubuntu",
+                    "version": null,
+                    "description": "null"
+                }
+            ]
+        }
+    ],
+    "autonomous_system": {
+        "asn": "AS16509",
+        "description": "None",
+        "bgp_prefix": [
+            "44.224.0.0/13",
+            "44.232.0.0/15",
+            "44.234.0.0/16",
+            "44.235.0.0/17",
+            "44.235.128.0/18",
+            "44.235.192.0/20",
+            "44.235.208.0/21",
+            "44.235.216.0/24"
+        ],
+        "name": "amazon-02",
+        "country_code": "US"
+    },
+    "operating_system": {
+        "vendor": "",
+        "cpe": null,
+        "port": 0
+    },
+    "dns": {
+        "ttl": 3600,
+        "resolver": [
+            "1.0.0.1:53",
+            "9.9.9.9:53",
+            "208.67.220.220:53",
+            "1.1.1.1:53",
+            "8.8.8.8:53",
+            "8.8.4.4:53"
+        ],
+        "a": [
+            "44.228.249.3"
+        ],
+        "soa": [
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            },
+            {
+                "name": "vulnweb.com",
+                "ns": "ns1.eurodns.com",
+                "mailbox": "hostmaster.eurodns.com",
+                "serial": 2024111200,
+                "refresh": 86400,
+                "retry": 7200,
+                "expire": 604800,
+                "minttl": 86400
+            }
+        ],
+        "txt": [
+            "google-site-verification:toEctYsulNIxgraKk7H3z58PCyz2IOCc36pIupEPmYQ"
+        ],
+        "all": [
+            "testphp.vulnweb.com.\t3600\tIN\tA\t44.228.249.3",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232",
+            "vulnweb.com.\t3600\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2024111200 86400 7200 604800 86400",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512",
+            "\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1410",
+            "testphp.vulnweb.com.\t3600\tIN\tTXT",
+            "google-site-verification:toEctYsulNIxgraKk7H3z58PCyz2IOCc36pIupEPmYQ",
+            ",",
+            "vulnweb.com.\t86400\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2024111200 86400 7200 604800 86400",
+            "vulnweb.com.\t1800\tIN\tSOA\tns1.eurodns.com. hostmaster.eurodns.com. 2024111200 86400 7200 604800 86400"
+        ],
+        "status_code": "NOERROR",
+        "axfr": {
+            "host": "testphp.vulnweb.com"
+        },
+        "timestamp": "2024-11-14T07:58:04Z"
+    }
+}
