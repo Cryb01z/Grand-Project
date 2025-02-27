@@ -20,16 +20,16 @@
 - 🔸 Organizations tracking changes in their attack surface over time.  
 
 # 🏡 Dashboard Overview  
-<img src="https://github.com/user-attachments/assets/a85c7c1b-5c5e-4c45-9cea-cea8c0633a33" alt="Home Screen" width="400">
+<img src="https://github.com/user-attachments/assets/a85c7c1b-5c5e-4c45-9cea-cea8c0633a33" alt="Home Screen" width="">
 
 # 📂 Asset Management  
-<img src="https://github.com/user-attachments/assets/b53de811-9758-4b79-825b-fcb1bee1bfe7" alt="Asset Management" width="400">
+<img src="https://github.com/user-attachments/assets/b53de811-9758-4b79-825b-fcb1bee1bfe7" alt="Asset Management" width="">
 
 # 🔥 Vulnerabilities  
-<img src="https://github.com/user-attachments/assets/267ebf75-6b03-48b3-952c-ee2948281af7" alt="Vulnerabilities" width="400">
+<img src="https://github.com/user-attachments/assets/267ebf75-6b03-48b3-952c-ee2948281af7" alt="Vulnerabilities" width="">
 
 # 📡 Scanning & Response  
-<img src="https://github.com/user-attachments/assets/f889b0f3-f1d2-4c96-b15f-a77c16f430b6" alt="Scanning & Response" width="400">
+<img src="https://github.com/user-attachments/assets/f889b0f3-f1d2-4c96-b15f-a77c16f430b6" alt="Scanning & Response" width="">
 
 # 🕵️ GitHub Dorking – Finding POC & Credentials Leak  
 <img src="https://github.com/user-attachments/assets/06ac3be3-5481-4bb2-9030-129f8c7c855e" alt="GitHub Dorking" width="400">
