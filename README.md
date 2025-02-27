@@ -32,7 +32,7 @@
 <img src="https://github.com/user-attachments/assets/f889b0f3-f1d2-4c96-b15f-a77c16f430b6" alt="Scanning & Response" width="">
 
 # 🕵️ GitHub Dorking – Finding POC & Credentials Leak  
-<img src="https://github.com/user-attachments/assets/06ac3be3-5481-4bb2-9030-129f8c7c855e" alt="GitHub Dorking" width="400">
+<img src="https://github.com/user-attachments/assets/06ac3be3-5481-4bb2-9030-129f8c7c855e" alt="GitHub Dorking" width="">
 
 
 
